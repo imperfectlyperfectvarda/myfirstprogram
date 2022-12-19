@@ -1,0 +1,16 @@
+Terminal : allows us to manipulate the file structure using commands
+ls:list commands
+mkdir: make directory
+cd project: change directory (it is like double clicking and going inside)
+git init : initialized empty Git repository
+-a: show files which are hidden
+.git: any file that starts with . is hidden
+touch ___: to create a new file ___
+git status: shows the intracked files which means none will know that file is added or not. This command tells us these are all the changes which are not in the history of your project.
+none knows about it.
+git add __: to add the untracked file (the file will go in staging area)
+git add .: to add all the untracked files
+git config --global user.email vardajais13@gmail.com
+git config --global user.name varda
+ls -lart : to show files which are hidden
+green shows staging

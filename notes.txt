@@ -1,0 +1,223 @@
+<!DOCTYPE html> : it means we are telling the browser that it is a html document.
+<html lang="en"> : means i have written a tag html.i have given an attribute with name lang. and language is englisg.this line is called opening tag.
+</html> : is called closing tag
+head : has meta tags. meta means information about information. it has title, can link external sheet
+head gets closed
+body: webpage ka content body ke ander aata hai.
+<!--Our html code starts here-->: This is comment, it is not executed.
+Cntrl with forward slash is used for making a line comment.If you press it again so it goes back to simple line.
+meta tag is used for SEO (Search Engine Optimization). SEO is the way to increase your web traffic.
+
+
+<link rel="stylesheet" href="varda.css">: This is how we include external CSS.
+
+ <script src="varda.js"></script>: This is how you include external JavaScript.
+
+EMMET: is builtin VS Code
+
+IN BODY: h1 is main heading.h1 to h6 
+p :is paragraph
+example: <h1>varda</h1>
+    <p>this is varda</p>
+
+Lorem4: inserts 4 words
+
+right click to command pallete and search toggle word wrap: text will not fall out.
+
+P*4: four times <p> will come
+
+strong: bold ho jayega
+em tag: italics ho jayega.
+<br> : br is for breaking the line. it is self-closing tag
+<hr> : creates horizontal line. it is self-closing tag
+<b> : for bold 
+<i> : for italics
+ctrl+enter: to jump into new line
+
+DAY2:
+
+the template(written code) is called the boiler plate
+<a href="https://google.com">Go to google</a> : To add links and reach them using your website, a is anchor tag here
+a is a tag(like body) jo sabse pehle likha jata hai vo tag hai
+href : is an attribute, attribute gives a new quality to tag
+meta : is a tag
+name, content : is an attribute
+to open website in new tab: target="_blank"
+example of internal file linking: <a href="/tut4.html" target="_blank">tut4 </a>
+
+for adding images:
+img tag
+src: means source
+alt: what to display if image is not loaded.
+
+source.unsplash.com
+<img src="https://source.unsplash.com/200x400/?nature,water" alt="remote image"> : you can resize the image by giving dimensions.widthxheight
+width="233" height="34": not recommended to set like this
+
+ul :unordered list, will have bullet points or any other shape also: disc , square, circle etc.eg: <ul type="square">
+ol: ordered list, will have serial no.
+ol type="1" , "i": eg. <ol type="i">
+
+we can have lists under lists.
+rightclick and click format document: we get the formatted and aligned text
+
+
+Table:
+example-
+
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>employeeid</th>
+                <th>employee role</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>harry</td>
+                <td>21</td>
+                <td>programmer</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+tr:row
+
+FORMS AND INPUT TAGS:
+Action is the endpoint where all the data from the form gets submitted.
+div tag: used to bring a division- we used div for it to be in next line
+name is the way backend will know.
+Submit now:
+<div>
+    <input type="submit" value="Submit Now">
+</div>
+Rest now can also be done similarly
+to add date: 
+<div>
+   date:  <input type="date" name="myDate" >
+</div>
+
+for checkbox:
+<div>
+    are you eligible?:  <input type="checkbox" name="myEligibility" >
+ </div>
+for Radio button:you can only select 1 because both have 1 name myGender
+ <div>
+
+Textarea: for taking paragraph as input
+ <div>
+     Write about yourself : <textarea name="mytext" cols="30" rows="10"></textarea>
+ </div>
+    Gender: Male <input type="radio" name="myGender" >  FeMale <input type="radio" name="myGender" >
+ </div>
+
+if you want by default something should be checked then use checked.
+
+Label:
+agr name pr click kia to box me apneaap chala jayega.(jo for me denge wahi same id me hona chahiye)
+       <label for="name">Name</label>
+<div>
+    <input type="text" name="myName" id="name">
+</div>
+
+Select:(to give choice)
+eg:
+    <label for="car">Car</label>
+    <select name="myCar" id="car">
+    <option value="ind" selected>Indica</option>
+    <option value="swf">Swift</option>
+    </select>
+
+selected is used to have the option selected
+
+Paragraph is a block element it takes all the width.take up the entire space. eg. div, paragraph,li
+But if we use span instead of paragraph tag then it comes in a single line , it s an inline element.take only their space. eg.span,anchor(a),em, (img) 
+
+Strong is used to bold the text
+
+id=identifier which you can identify by this name. In 1 page only 1 id should be there.
+eg.:<div id="mainBox" class="redBg">
+class= the element which is give class, in that element all those properties will come.
+One element can have just one id.And one id can only be there in just one element.But this is not the case for classes.
+i can give multiple class to one element and i can add one class to multiple elements. In one element multiple class can be there,one class can be in multiple elements.
+
+
+Select and press ctrl+/ to comment
+dot(.) is for class and # is for id. example: element.___ 
+
+emment takes div tag as default. eg.: .__ so it will come with div
+
+Creating multiple elements using Emment:
+span.myclass.myclass2.myclass3 + <Tab>
+
+
+HTML ENTITIES:html reserved characters,to write characters which are not there in keyborad or special characters
+
+html by default chops of all the extra spaces
+&lt;p&gt; to write <p>
+&nbsp;: gives the space
+<p>copyright paragrapgn is writen &copy;</p>: for copyright
+&pound; : for pound symbol
+for other examples take entities from chart
+<p>empty character is writen &#8203;</p>
+
+SEMANTICS TAGS: 
+Semantics :the meaning of semantics is the meaning, that is, to give meaning to any one word
+eg. header-always on top,footer, details(can be collapsed and expanded), summary(jo ander aayega vo pura display hoga)
+nav: ex preview, navigation bar it doesnt have content
+
+Non-semantic elements: which do not tell what their work is in the website
+example: div,span
+
+
+CSS:
+gives style to raw HTML.
+used to make websites responsive
+takes responsibility of design
+Cascading Style Sheets
+
+p {color:blue;} 
+p:selector - where? where is it going to change
+color:property- this
+blue:value- set this value
+
+Markup: HTML Code ka fancy name
+
+Inline CSS: meaning we put it in the same element as this CSS and whatever is there our styling gets added to that element.
+Internal CSS: to remove the markup,put a style tag inside the head; markup of all the pages within the same page but in different tags, in one place in the same page.
+eg.:<style>
+       p{
+          color:blueviolet;
+          background-color:aqua ;
+       }
+    </style>
+External CSS: means create a separate file,create a separate .CSS file,add all CSS to it and will include in our markup.
+             Step 1: write CSS in .CSS file
+             Step 2: include that CSS file to markup
+eg.:<link rel="stylesheet" href="varda.css">
+The priority of inline css is more over internal css
+
+If you wrote any CSS afterwards it will take precedence. 
+so the thing which is written afterwards will take more order.(jo cheez baad me likhi hai vo ho jayegi): internal aur external me se.
+(for background color)pr 
+!important using this will make that line important.
+
+CSS SELECTORS:
+it helps to select the markup
+helps you to target the elements which you have to select
+used to target the html elements (in the markup)
+
+Types of selectors:
+just p is element selector
+id selector use #for id and give same name as id
+Class selector can be used for class also by using . 
+combined or grouping selector:
+id is identifier and its unique
+Use idselector when you are dealing with one element.
+Use class when we need to put same thing to all the elements.
+
+for comment in CSS:
+/*____*/ (inside style)
+
