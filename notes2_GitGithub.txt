@@ -25,3 +25,7 @@ type :wq and enter
 git add -A: add all new files
 git commit -m "message"
 clear: to clean the terminal
+
+If you want to go to last version
+$ git checkout contact.html
+Checkout means last commit se match karva do, to recover the files
