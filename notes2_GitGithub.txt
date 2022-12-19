@@ -41,3 +41,5 @@ Branch
 git branch _____ : create new branchs
 git branch : shows all the branches and current branch
 git checkout branchname: changes the branch to desired one
+git merge branchname: to merge branch to the master branch
+git checkout -b newbranchname: this will create new branch and also take us/switch in that branch(checkout)
