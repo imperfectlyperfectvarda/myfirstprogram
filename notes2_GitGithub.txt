@@ -14,3 +14,10 @@ git config --global user.email vardajais13@gmail.com
 git config --global user.name varda
 ls -lart : to show files which are hidden
 green shows staging
+
+git commit 
+vim opens
+press I
+Type message
+Press Esc
+type :wq and enter
