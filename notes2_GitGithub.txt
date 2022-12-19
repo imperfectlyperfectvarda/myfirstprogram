@@ -29,3 +29,8 @@ clear: to clean the terminal
 If you want to go to last version
 $ git checkout contact.html
 Checkout means last commit se match karva do, to recover the files
+
+git checkout -f : all files which were modified will be recovered to older commit version
+git log : tells all the details about author and date
+git log -p -no. of older log you want to see
+git diff: ye meri working tree ko staging area se compare karega
