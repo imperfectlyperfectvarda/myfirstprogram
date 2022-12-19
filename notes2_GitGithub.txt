@@ -35,4 +35,9 @@ git log : tells all the details about author and date
 git log -p -no. of older log you want to see
 git diff: ye meri working tree ko staging area se compare karega
 staging area ko last commit se compare karna ho to: git diff --staged
-git commit -a -m : sabko staging area ko skip krkr commit kr dia
+git commit -a -m"message": sabko staging area ko skip krkr commit kr dia
+
+Branch 
+git branch _____ : create new branchs
+git branch : shows all the branches and current branch
+git checkout branchname: changes the branch to desired one
