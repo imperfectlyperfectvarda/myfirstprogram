@@ -24,3 +24,4 @@ type :wq and enter
 
 git add -A: add all new files
 git commit -m "message"
+clear: to clean the terminal
