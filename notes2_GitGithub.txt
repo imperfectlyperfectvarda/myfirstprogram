@@ -21,3 +21,6 @@ press I
 Type message
 Press Esc
 type :wq and enter
+
+git add -A: add all new files
+git commit -m "message"
